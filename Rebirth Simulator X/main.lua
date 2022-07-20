@@ -10,6 +10,7 @@ local TeleportTab = MainWindow:Tab("Teleport")
 local MiscTab = MainWindow:Tab("Misc")
 
 local AutoRebirthSection = MainTab:Section("AutoRebirth")
+local AutoDarkRebirthSection = MainTab:Section("Auto Dark Rebirth")
 local TeleportSection = TeleportTab:Section("Teleport")
 local MiscSection = MiscTab:Section("Misc")
 
@@ -50,6 +51,44 @@ local ToggleAutoRebirth11 = AutoRebirthSection:Toggle("AutoRebirth 5 Normal + 14
         wait(0.3)
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-147.624237, 2.49987698, 12.1305161, 1, 0, 0, 0, 1, 0, 0, 0, 1)
         wait(0.3)
+    end
+end)
+
+local PathTeleport
+
+local DarkList = AutoDarkRebirthSection:Dropdown("Dark Rebirths", {"10","22","50","150"},"","Dropdown", function(x)
+    if x == "10" then
+        function PathTeleport()
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(308.080475, 7.91408539, 1385.90369, 5.1920929e-07, 0, 1.00000012, 0, 1, 0, -1.00000012, 0, -1.1920929e-07)
+        end
+    end
+
+    if x == "22" then
+        function PathTeleport()
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(308.080475, 7.91408539, 1401.90356, 5.1920929e-07, 0, 1.00000012, 0, 1, 0, -1.00000012, 0, -1.1920929e-07)
+        end
+    end
+
+    if x == "50" then
+        function PathTeleport()
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(308.080475, 7.91408539, 1417.90356, 5.1920929e-07, 0, 1.00000012, 0, 1, 0, -1.00000012, 0, -1.1920929e-07)
+        end
+    end
+
+    if x == "150" then
+        function PathTeleport()
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(308.080475, 7.91408539, 1433.90344, 5.1920929e-07, 0, 1.00000012, 0, 1, 0, -1.00000012, 0, -1.1920929e-07)
+        end
+    end
+    
+end)
+
+local ToggleAutoDarkRebirth = AutoDarkRebirthSection:Toggle("Auto Dark Rebirth", false,"Toggle", function(d)
+    getgenv().autodarkrebirth = d
+    while true do
+        if getgenv().autodarkrebirth == false then return end
+        PathTeleport()
+        wait(0.1)
     end
 end)
 
