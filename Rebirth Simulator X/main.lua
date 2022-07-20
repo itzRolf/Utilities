@@ -18,7 +18,7 @@ local ToggleAutoRebirth25k = AutoRebirthSection:Toggle("AutoRebirth 25k Normal",
     getgenv().autorebirth25k = r
     while true do
         if getgenv().autorebirth25k == false then return end
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-102.624237, 4.49987698, 93.1305161, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-102.624237, 1.49987698, 93.1305161, 1, 0, 0, 0, 1, 0, 0, 0, 1)
         wait(0.2)
     end
 end)
@@ -27,7 +27,7 @@ local ToggleAutoRebirth1 = AutoRebirthSection:Toggle("AutoRebirth 1 Ultra", fals
     getgenv().autorebirthultra = u
     while true do
         if getgenv().autorebirthultra == false then return end
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-111.624237, 4.49987698, 92.1305161, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-111.624237, 1.49987698, 92.1305161, 1, 0, 0, 0, 1, 0, 0, 0, 1)
         wait(0.2)
     end
 end)
@@ -36,10 +36,10 @@ local ToggleAutoRebirthCombine = AutoRebirthSection:Toggle("AutoRebirth 25k Norm
     getgenv().autocombine = c
     while true do
         if getgenv().autocombine == false then return end
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-102.624237, 4.49987698, 93.1305161, 1, 0, 0, 0, 1, 0, 0, 0, 1)
-        wait(0.8)
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-111.624237, 4.49987698, 92.1305161, 1, 0, 0, 0, 1, 0, 0, 0, 1)
-        wait(0.8)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-102.624237, 1.49987698, 93.1305161, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        wait(0.3)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-111.624237, 1.49987698, 92.1305161, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        wait(0.3)
     end
 end)
 
@@ -47,9 +47,9 @@ local ToggleAutoRebirth11 = AutoRebirthSection:Toggle("AutoRebirth 5 Normal + 14
     getgenv().auto11 = a
     while true do
         if getgenv().auto11 == false then return end
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(28.0582142, 2.49987686, 2.48364186, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(28.0582142, 1.49987686, 2.48364186, 1, 0, 0, 0, 1, 0, 0, 0, 1)
         wait(0.3)
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-147.624237, 2.49987698, 12.1305161, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-147.624237, 1.49987698, 12.1305161, 1, 0, 0, 0, 1, 0, 0, 0, 1)
         wait(0.3)
     end
 end)
