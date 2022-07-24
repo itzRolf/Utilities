@@ -50,8 +50,6 @@ AutoFarmSection:Button("Visual Delete Eggs. Boost FPS", function()
     game.Workspace._EggFolder:Destroy()
 end)
 
-game.Lighting
-
 MiscSection:Button("Boost FPS", function()  
     local decalsyeeted = true
     game.Workspace.Terrain.WaterWaveSize = 0
