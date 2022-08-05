@@ -2,16 +2,10 @@
 
   Credits: Noctural#9816
 
-  Version: 0.0.4
+  Version: 0.0.6
   
   [What`s new?]
-    [*] Better Auto Rob
-    [*] Better UI
-    [+] Anti AFK
-    [+] Server Hop
-    [+] Path Finding Rob [BETA]
-    [+] Credits
-    [+] Settings
+    [*] Bugs Fix
 
 --]]
 
