@@ -1,7 +1,7 @@
 --[[
 
   Credits: Noctural#9816
-  Version: 0.0.7 Beta
+  Version: 0.0.8 Beta
 
 --]]
 
