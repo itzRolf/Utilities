@@ -1,7 +1,7 @@
 --[[
 
   Credits: Noctural#9816
-  Version: 0.0.5 Beta
+  Version: 0.0.6 Beta
 
 --]]
 _, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
