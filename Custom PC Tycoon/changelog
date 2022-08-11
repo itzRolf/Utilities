@@ -48,3 +48,10 @@
     [*] Bugs fix
 []
 
+[0.1.1 Beta]
+    [*] Max Construct Speed from 10 to 5
+    [*] Minimal Construct Speed from 0.05 to 0.07
+    [+] Quantity RAM, Memory, FAN
+    [+] Full Diamond Parts
+[]
+
