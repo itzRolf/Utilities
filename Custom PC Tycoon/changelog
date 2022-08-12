@@ -78,3 +78,7 @@
     [+] Added Config System
     [-] Remove Local Player Page
 []
+
+[0.1.5 Beta]
+    [*] Fix bugs with getgenv()
+[]
