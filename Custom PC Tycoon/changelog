@@ -82,3 +82,8 @@
 [0.1.5 Beta]
     [*] Fix bugs with getgenv()
 []
+
+[0.1.6 Beta]
+    [*] Full rewrite Auto Buy and Construct
+    [*] More stability, faster
+[]
