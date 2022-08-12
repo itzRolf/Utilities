@@ -87,3 +87,9 @@
     [*] Full rewrite Auto Buy and Construct
     [*] More stability, faster
 []
+
+[0.1.7 Beta]
+    [*] Fixed bug with "UserID"
+    [*] Minimal Construct Speed from 0.05 to 0.01
+[]
+
