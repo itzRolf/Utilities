@@ -93,3 +93,10 @@
     [*] Minimal Construct Speed from 0.05 to 0.01
 []
 
+[0.1.8 Beta]
+    [*] Bugs fix in Auto Construct (bugs with build 1 ram)
+    [*] Smarter Auto Construct and Buy
+    [*] Code Optimization
+    [*] Many Improvements
+[]
+
