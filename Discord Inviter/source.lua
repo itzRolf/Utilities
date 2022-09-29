@@ -138,7 +138,7 @@ Inviter.Prompt = function(options)
 		Name = "Background",
 		AnchorPoint = Vector2.new(0.5, 0.5),
 		BackgroundColor3 = Color3.fromRGB(55, 55, 65),
-		Position = UDim2.new(0.5, 0, 0.25, 0),
+		Position = UDim2.new(0.5, 0, 0.15, 0),
 		Size = UDim2.new(0, 0, 0, 0),
 		Visible = false,
 
