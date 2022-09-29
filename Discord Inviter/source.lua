@@ -285,4 +285,6 @@ Inviter.Gui = UI.Create("ScreenGui", {
 	ZIndexBehavior = Enum.ZIndexBehavior.Sibling,
 })
 
+Inviter.Gui.Parent = CG
+
 return Inviter
