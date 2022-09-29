@@ -284,3 +284,5 @@ Inviter.Gui = UI.Create("ScreenGui", {
 	Name = "Discord Invite",
 	ZIndexBehavior = Enum.ZIndexBehavior.Sibling,
 })
+
+return Inviter
